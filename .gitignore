@@ -1,2 +1,5 @@
 # Ignore file types
 *.env
+*.db
+__pycache__/
+docs/

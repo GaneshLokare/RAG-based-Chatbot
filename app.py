@@ -67,7 +67,7 @@ def show_pdf_search_engine():
     # Retrieve and display user-specific indexes
     index_names = get_user_indexes(user_id)
     with st.sidebar:
-        selected_index = st.selectbox("Your Indexes", [""] + index_names)
+        selected_index = st.selectbox("Select PDF", [""] + index_names)
         if selected_index:
             st.session_state.index_name = selected_index
             st.session_state.pdf_processed = True

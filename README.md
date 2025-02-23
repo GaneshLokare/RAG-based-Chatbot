@@ -57,7 +57,7 @@ The **RAG-based Chatbot** is a PDF-powered search engine and chatbot built using
 ### Steps
 1. **Clone the Repository**:
 ```bash
-git clone <repository-url>
+git clone https://github.com/GaneshLokare/RAG-based-Chatbot.git
 cd rag-based-chatbot
 ```
 
